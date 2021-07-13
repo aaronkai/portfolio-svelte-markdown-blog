@@ -1,0 +1,38 @@
+@tailwind base;
+@layer base {
+	h1 {
+		@apply text-5xl;
+		@apply mb-4;
+	}
+	h1,
+	h2,
+	h3 {
+		@apply font-display;
+	}
+
+	p {
+		@apply pb-2;
+		@apply font-montserrat;
+	}
+
+	article {
+		@apply px-12;
+		@apply py-12;
+	}
+
+	article a {
+		@apply underline;
+		@apply hover:text-indigo-900;
+	}
+
+	article p {
+		@apply mb-4;
+	}
+
+	article h2 {
+		@apply mb-4;
+	}
+}
+
+@tailwind components;
+@tailwind utilities;
