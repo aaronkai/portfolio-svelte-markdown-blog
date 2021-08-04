@@ -9,8 +9,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^1.0.0-next.26",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "^1.0.0-next.141",
 		"autoprefixer": "^10.3.1",
 		"cssnano": "^5.0.7",
 		"eslint": "^7.32.0",
@@ -25,5 +24,8 @@
 		"svelte-preprocess": "^4.7.4",
 		"tailwindcss": "^2.2.7"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-netlify": "^1.0.0-next.0"
+	}
 }

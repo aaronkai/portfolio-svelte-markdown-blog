@@ -79,9 +79,9 @@
             </span>
         </h2>
 
-        <div>
+        <div class="flex">
           {#each tags as tag}
-          <a class="bg-indigo-800 text-white py-1 px-2 mx-2 rounded hover:bg-indigo-600" href={`/tags/${tag}`}>#{tag} </a>
+          <a class="bg-indigo-800 text-white py-1 px-2 m-1 rounded hover:bg-indigo-600" href={`/tags/${tag}`}>#{tag} </a>
           {/each}
         </div>
 
